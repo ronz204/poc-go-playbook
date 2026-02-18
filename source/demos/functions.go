@@ -24,6 +24,6 @@ func FunctionsDemo() {
 		fmt.Println("10 divided by 2 is", result)
 	}
 
-	sum := reduce(1, 2, 3, 4, 5)
-	fmt.Println("Sum of 1,2,3,4,5 is", sum)
+	result = reduce(1, 2, 3, 4, 5)
+	fmt.Println("Sum of 1,2,3,4,5 is", result)
 }
