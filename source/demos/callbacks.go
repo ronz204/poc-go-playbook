@@ -1,6 +1,9 @@
 package demos
 
+import "fmt"
+
 func Operate(a, b int, callback func(int, int) int) int {
+	fmt.Println("Performing operation on", a, "and", b)
 	return callback(a, b)
 }
 
