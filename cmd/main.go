@@ -11,6 +11,7 @@ func main() {
 	demos.CallbacksDemo()
 	demos.VariablesDemo()
 	demos.FunctionsDemo()
+	demos.CompositeDemo()
 	demos.ConditionsDemo()
 
 	patterns.EnumsDemo()
